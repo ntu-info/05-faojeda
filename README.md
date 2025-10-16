@@ -161,3 +161,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 - **Database:** Render PostgreSQL via `DB_URL` environment variable
 - **Data loading:** Executed with `create_db.py`
 - **Testing:** Verified `/`, `/img`, and `/test_db` respond correctly
+ - **Extra:** Added dissociation endpoints for terms and MNI coordinates
