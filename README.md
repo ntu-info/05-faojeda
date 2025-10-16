@@ -154,3 +154,10 @@ curl https://<your-app>.onrender.com/dissociate/locations/-2_50_-6/0_-52_26
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Deployment Info
+
+- **Live site:** https://ns-nano-faojeda.onrender.com/
+- **Database:** Render PostgreSQL via `DB_URL` environment variable
+- **Data loading:** Executed with `create_db.py`
+- **Testing:** Verified `/`, `/img`, and `/test_db` respond correctly
